@@ -1,7 +1,50 @@
 .mainMenu {
-	background-color: black;
+	/*background-color: green;*/
 	width: 50%;
 	height: 100px;
 	position: absolute;
 	left: 25%;
+	bottom: 3%;
+	z-index: -1;
 }
+
+	.theApp {
+		background-color: white;
+		width: 50%;
+		left: 25%;
+		height: 400px;
+		position: absolute;
+		top: 10%;
+	}
+
+	.menuApp {
+		/*background-color: blue;*/
+		width:19%;
+		height: 75%;
+		float: left;
+		position: relative;
+		top:25%;
+	}
+
+	.calendar {
+		content:url("icCalendar.png");
+	}
+	.facebook {
+		content:url("icFacebook.png");
+	}
+	.twitter {
+		content:url("icTwitter.png");
+	}
+	.weather {
+		content:url("icWeather.png");
+	}
+	.youtube {
+		content:url("icYouTube.png");
+	}
+
+	.selected {
+		/*background-color: red;*/
+		height: 100%;
+		width: 24%;
+		top:0%;
+	}
